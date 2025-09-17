@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Youtube - Reprodução Automática de Vídeos</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header style="width:100%;text-align:center;margin-bottom:32px;">
+		<h1 style="font-size:2.4rem;color:#ff1744;margin:0;">Youtube - Reprodução Automática de Vídeos</h1>
+		<p style="color:#ccc;font-size:1.1rem;margin-top:8px;">Assista vídeos do YouTube com reprodução automática e looping personalizado</p>
+	</header>
+	<div class="container">
+		<h2>Reprodutor YouTube Infinito</h2>
+		<input type="text" id="youtubeUrl" placeholder="Cole o link do YouTube aqui" style="width: 400px; margin-bottom: 16px; padding: 8px; border-radius: 6px; border: 1px solid #444;">
+		<button id="loadBtn">Carregar Vídeo</button>
+		<div class="video-area" style="background:#111; border-radius:16px; box-shadow:0 2px 16px #0006; padding:24px; margin-top:24px; display:flex; flex-direction:column; align-items:center;">
+			<iframe id="ytplayer" width="560" height="315" src="https://www.youtube.com/embed/YL3Sp9mv5BY?enablejsapi=1&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<button id="loopBtn" style="margin-top:18px;">Ativar Loop Infinito</button>
+		</div>
+	</div>
+	<script src="script.js"></script>
+	<footer style="width:100%;text-align:center;padding:24px 0 12px 0;background:#222;color:#aaa;margin-top:48px;">
+		<span>Site criado por Samuel Pinheiro &copy; 2025. Todos os direitos reservados.</span>
+	</footer>
+</body>
+</html>
+
